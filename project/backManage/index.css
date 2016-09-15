@@ -1,0 +1,110 @@
+body,p,ul,dl,dt,dd,ol,li,h1,h2,h3,h4,h5,h6,fieldset,legend{
+    margin:0px;
+    padding:0px;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+p{
+    margin:0 !important;
+}
+body{
+    font-size:16px;
+}
+a{
+    text-decoration:none;
+}
+img{
+
+    border:0;
+}
+ul,li{
+    list-style:none;
+}
+/*********************************/
+.title{
+    padding:0 20px;
+    height:80px;
+    background:#f2f2f2;
+}
+.tL{
+    float:left;
+}
+.tL p{
+    font-size:20px;
+    line-height:80px;
+    font-weight:bold;
+}
+.tR{
+    padding-right:40px;
+    float:right;
+}
+.tR p{
+    font-size:20px;
+    line-height:80px;
+}
+/**********content************/
+.content{
+    height:100%;
+    background:black;
+}
+/*******left*************/
+.left{
+    padding:10px 0 0 30px;
+    position:absolute;
+    left:0;
+ /*   width:200px;*/
+    height:100%;
+    background:burlywood;
+}
+.left dl{
+    padding-left:20px;
+    margin-bottom:20px;
+}
+.left dt{
+    cursor: pointer;
+   font-weight: bold;
+}
+.left dd{
+    cursor: pointer;
+    display:none;
+}
+
+#allform{
+    display: none;
+}
+
+.right{
+    padding-left:30px;
+    /*clear:both;*/
+   /* margin-left:230px;*/
+   /* width:90%;*/
+    height:100%;
+    background:white;
+}
+.right .pt1{
+    width:60px;
+    height:30px;
+    background:lightsteelblue;
+}
+.right table{
+    clear: both;
+    margin-top: 20px;
+
+}
+#bbb tr{
+    cursor: pointer;
+}
+/*.right table th{
+    width:200px;
+    height:30px;
+
+}
+.right table td{
+    text-align: center;
+    line-height:30px;
+    font-size:20px;
+    width:200px;
+    height:30px;
+}*/

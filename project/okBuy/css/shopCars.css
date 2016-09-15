@@ -1,0 +1,170 @@
+.shopCon{
+    width:1200px;
+    overflow:hidden;
+    margin:0 auto;
+}
+.shopTop{
+    height:60px;
+    line-height:60px;
+    border-bottom:2px solid #d70057;
+}
+.shopTop p{
+    font-size: 30px;
+    line-height:60PX;
+    text-align: left;
+    color:#333;
+}
+.tabUl{
+    padding-top:20px;
+    padding-bottom:20px;
+    overflow: hidden;
+    width:1170px;
+    border-bottom:1px solid #e8e8e8;
+    padding-left:30px;
+}
+.tabUl li{
+    text-align: center;
+    line-height:20px;
+    font-size:14px;
+    float:left;
+  vertical-align: middle;
+}
+#allCheck{
+    margin:0;
+    width:20px;
+    height:20px;
+    float:left;
+}
+.shopU1 span{
+    line-height:20px;
+    float:left;
+}
+.shop110{
+    width:110px;
+}
+.shop470{
+    width:470px;
+}
+.shop240{
+    width:240px;
+}
+.shop110{
+    width:110px;
+}
+.shop130{
+    width:130px;
+}
+.check{
+    margin:0;
+    width:20px;
+    height:20px;
+    margin-top:65px;
+
+}
+.shop1{
+    width:1170px;
+    height:150px;
+    padding-left:30px;
+    border-bottom:1px solid #e8e8e8;
+}
+.shop1 img{
+    float:left;
+    margin-top:30px;
+    width:90px;
+}
+.shop1 ul li{
+    display: inline;
+    vertical-align: middle;
+    float:left;
+    height:150px;
+}
+.imgR{
+    margin-top: 40px;
+    padding-top:10px;
+    float:left;
+}
+.decro{
+    display: block;
+    margin-left: 10px;
+    font-size: 16px;
+    font-style:normal;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.shopSize{
+    font-size: 16px;
+    display: block;
+    color:#969696;
+    margin: 10px 0 0 10px;
+}
+.shopSize i{
+    font-style: normal;
+    color:black;
+}
+.shop1 ul .shop110 p{
+
+    line-height:150px;
+    font-size:14px;
+    text-align:center;
+}
+.shop1 .shop240 a{
+    margin-top:50px;
+    float:left;
+    display:block;
+    border:1px solid #e8e8e8;
+    border-right:0;
+    text-align:center;
+    line-height:38px;
+}
+.jian{
+    margin-left:40px;
+}
+.jian,.jia{
+    cursor:pointer;
+    width:44px;
+    height:38px;
+}
+.shop1 .shop240 .jia{
+    border-right:1px solid #e8e8e8;
+}
+.shopC{
+    width:84px;
+    height:38px;
+}
+.delete{
+    cursor:pointer;
+    margin:60px 50px;
+    display:block;
+    width:26px;
+    height:14px;
+    background:url("../images/catin.png") -52px 0 no-repeat;
+}
+.shopCal{
+    margin:0 auto;
+    margin-top:10px;
+    height:60px;
+    width:1200px;
+}
+.shopLast{
+    float:right;
+}
+.spL1{
+    line-height:60px;
+}
+.spL1 i{
+    font-style:normal;
+    font-size:24px;
+    font-weight:bold;
+    color:#d70057;
+}
+.spL2{
+    margin-left:20px;
+    display:inline-block;
+    height: 60px;
+    width:160px;
+    background:#d70057;
+    color:white;
+    line-height:60px;
+    text-align:center;
+    font-size:24px;
+}

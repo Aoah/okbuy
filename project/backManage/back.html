@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理首页</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="jquery-3.1.0.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="my.js"></script>
+    <style>
+        .panel-body{
+            background: #66afe9;
+        }
+        .panel-body p{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<!--***header**********-->
+<div class="row">
+    <div class=" col-md-12 col-lg-12 ">
+        <div class=" panel panel-default">
+            <div  class="panel-body">
+                <h3 >您好！欢迎进入好乐买管理系统</h3>
+            </div>
+        </div>
+        <div class="tR">
+           <!-- <p>退出</p>-->
+        </div>
+    </div>
+</div>
+<!--*********  框架开始*************-->
+<div class="content row">
+    <div class="col-xs-2 col-sm-2 col-md-2">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion"
+                           href="#collapseOne">
+                            首頁管理
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                      <p> 第一页数据</p>
+                      <p> 第二页数据</p>
+                       <p> 第三页数据</p>
+                       <p> 第四页数据</p>
+                   </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion"
+                           href="#collapseTwo">
+                            数据管理
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p> 第一页数据</p>
+                        <p> 第二页数据</p>
+                        <p> 第三页数据</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion"
+                           href="#collapseThree">
+                            数据管理
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p> 第一页数据</p>
+                        <p> 第二页数据</p>
+                        <p> 第三页数据</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion"
+                           href="#collapseFour">
+                            数据管理
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p> 第一页数据</p>
+                        <p> 第二页数据</p>
+                        <p> 第三页数据</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right col-xs-10 col-sm-10 col-md-10">
+        <input class="btn-sm btn-primary" type="button" value="添加" id="add2">
+        <input class="btn-sm btn-success" type="button" value="删除" id="remove">
+        <input class="btn-sm btn-danger" type="button" value="修改" id="change"/>
+        <input class="btn-sm btn-info" type="button" value="更新" id="upd"/>
+        <br/>
+        <br/>
+        <form  style="display: none" id="allform" role="form" class="form-horizontal" action="http://localhost:8081/addData_post"
+              method="post">
+            <div class="form-group col-sm-6">
+                <label for="id1" class="col-sm-2 control-label">标识</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" id="id1">
+                </div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label for="id1" class="col-sm-2 control-label">图片源</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" id="id2">
+                </div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label for="id1" class="col-sm-2 control-label">价格</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" id="id3">
+                </div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label for="id1" class="col-sm-2 control-label">描述</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" id="id4">
+                </div>
+            </div>
+            <input class="col-md-2 col-md-offset-5 btn-lg btn-warning" type="button" value="确定" id="add">
+        </form>
+
+        <table class="table table-hover" id="out">
+            <thead>
+            <tr>
+                <th><input id="allCheck" type="checkbox" value="全选">全选</th>
+                <th>标识</th>
+                <th>图片源</th>
+                <th>价格</th>
+                <th>描述</th>
+            </tr>
+            </thead>
+            <tbody id="bbb">
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <script src="jquery/jquery-3.1.0.js"></script>
+    <script src="js/cookieUtil.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/detail.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+<div class="topHead">
+    <div class="nav">
+        <div class="navL">
+              <span class="login">
+                   <a href="login.html"> 登录</a>
+                    <i>|</i>
+                    <a href="register.html">注册</a>
+              </span>
+            <div class="myll">
+                <a href="#">我的好乐买</a>
+                <span class="blank11"></span>
+                <div class="arrow">
+                    <p><a href="#">我的订单</a></p>
+                    <p><a href="#">我的收藏</a></p>
+                    <p><a href="#">我的优惠卷</a></p>
+                </div>
+            </div>
+            <i>|</i>
+            <div class="myll">
+                <a href="#">手机好乐买</a>
+                <span class="blank11"></span>
+                <div class="arrow">
+                    <img src="images/appqcode_2.png ">
+                    <br/>
+                    下载客户端
+                </div>
+            </div>
+            <i>|</i>
+            <div class="myll">
+                <a href="#">关注好乐买</a>
+                <span class="blank11"></span>
+                <div class="arrow">
+                    <img src="images/weixinqcode.png">
+                    <br/>
+                    微信公众号
+                </div>
+            </div>
+            <i>|</i>
+            <div class="myll">
+                <a href="#">客户服务</a>
+                <span class="blank11"></span>
+                <div class="arrow">
+                    <p><a href="#">联系客服</a></p>
+                    <p><a href="#">帮助中心</a></p>
+                    <p><a href="#">意见建议</a></p>
+                </div>
+            </div>
+            <i>|</i>
+            <div class="myll">
+                <a href="#">公告</a>
+                <span class="blank11"></span>
+                <div class="noticeList">
+                    <p><a href="#">轻奢品牌ECCO多款上线，3折起售！！</a></p>
+                    <p><a href="#">玖熙 欧美风格女鞋多款上线！</a></p>
+                    <p><a href="#">富贵鸟春款直降，剁手也要买！</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cc">
+    <div class="logo">
+           <span class="lolo">
+               <a href="#">
+                   <img src="images/logo.png">
+               </a>
+           </span>
+        <form class="search">
+            <input class="searching" type="text" value="马克华菲夏装59元，秋装159元两件">
+        </form>
+        <span class="hotwords">
+                 <a href="#">阿迪达斯</a>
+                 <a href="#">男凉鞋</a>
+                 <a href="#">女凉鞋</a>
+                 <a href="#">衬衫</a>
+                 <a href="#">Adidas</a>
+                 <a href="#">Lee</a>
+                 <a href="#"> 健身装备安德玛</a>
+             </span>
+        <a href="#" class="cart">
+                 <span>
+                       去购物车结算
+                        <b>(0)</b>
+                 </span>
+        </a>
+    </div>
+</div>
+<div class="nnav">
+    <div class="marauto">
+        <ul class="navwrap">
+            <li><a href="#" class="cur">首页</a></li>
+            <li><a href="#" class="navTop"></a></li>
+            <li class="hoverh"><a href="#">运动生活</a></li>
+            <li class="hoverh"><a href="#">户外鞋服</a></li>
+            <li class="hoverh"><a href="#">男女名鞋</a></li>
+            <li class="hoverh"><a href="#">快乐儿童</a></li>
+            <li class="hoverh"><a href="#"><img src="images/quanqiugouicon.gif"><span>全球购</span> </a></li>
+            <li><a href="#">家居包装</a></li>
+        </ul>
+
+        <!--运动生活-->
+
+        <div class="nav1Sub">
+            <span class="navrr">◆</span>
+            <div class="mainnav">
+                <div class="subMain">
+                    <h3>品类导购</h3>
+                    <div class="catewrap">
+                        <h3 class="black">运动鞋</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">跑步鞋</a>
+                            <a href="#" target="_blank">板鞋</a>
+                            <a href="#" target="_blank">凉鞋/凉拖</a>
+                            . <a href="#" target="_blank">休闲复古鞋</a>
+                            <a href="#" target="_blank">篮球鞋</a>
+                            <a href="#" target="_blank">帆布鞋</a>
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">硫化鞋</a>
+                            <a href="#" target="_blank">户外鞋</a>
+                            <a href="#" target="_blank">健步鞋</a>
+                            <a href="#" target="_blank">室内鞋</a>
+                            <a href="#" target="_blank">综训鞋</a>
+                            <a href="#" target="_blank">羽毛球鞋</a>
+                            <a href="#" target="_blank">足球鞋</a>
+                            <a href="#" target="_blank">网球鞋</a>
+                            <a href="#" target="_blank">乒乓球鞋</a>
+                            <a href="#" target="_blank">健身鞋</a>
+                            <a href="#" target="_blank">滑板鞋</a>
+                        </p>
+
+                    </div>
+                    <div class="catewrap">
+                        <h3 class="black">运动服</h3>
+                        <p class="context">
+                            <a class="a2" href="#" target="_blank">POLO衫</a>
+                            <a class="a2" href="#" target="_blank">T恤</a>
+                            <a class="a2" href="#" target="_blank">背心</a>
+                            <a class="a2" href="#" target="_blank">胸衣</a>
+                            <a class="a2" href="#" target="_blank">短裤</a>
+                            <a class="a2" href="#" target="_blank">长裤</a>
+                            <a class="a2" href="#" target="_blank">运动群</a>
+                            <a class="a2" href="#" target="_blank">卫衣/套头</a>
+                            <a class="a2" href="#" target="_blank">外套/开衫</a>
+                            <a class="a2" href="#" target="_blank">衬衫</a>
+                            <a class="a2" href="#" target="_blank">风衣</a>
+                            <a class="a2" href="#" target="_blank">运动套装</a>
+                        </p>
+
+                    </div>
+                    <div class="catewrap">
+                        <h3 class="black">运动周边</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">护具</a>
+                            <a href="#" target="_blank">球类</a>
+                            <a href="#" target="_blank">泳具</a>
+                            <a href="#" target="_blank">球拍</a>
+                            <a href="#" target="_blank">运动休闲包</a>
+                            <a href="#" target="_blank">袜子</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="subMain">
+                    <h3>运动导购 </h3>
+                    <div class="catewrap width450">
+                        <h3 class="black">跑步运动</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">boost系列</a>
+                            <a href="#" target="_blank">登月系列</a>
+                            <a href="#" target="_blank">FREE系列</a>
+                            <a href="#" target="_blank">李宁超轻系列</a>
+                            <a href="#" target="_blank">透气网面鞋款</a>
+                            <a href="#" target="_blank">男士速干T恤</a>
+                            <a href="#" target="_blank">女生速干T恤</a>
+                            <a href="#" target="_blank">男士运动背心</a>
+                            <a href="#" target="_blank">女士运动背心</a>
+                            <a href="#" target="_blank">男士短裤</a>
+                            <a href="#" target="_blank">女士短裤</a>
+                        </p>
+
+                    </div>
+                    <div class="catewrap width450">
+                        <h3 class="black">足球/篮球鞋</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">足球鞋</a>
+                            <a href="#" target="_blank">足球系列服装</a>
+                            <a href="#" target="_blank">篮球鞋</a>
+                            <a href="#" target="_blank">篮球系列服装</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width450">
+                        <h3 class="black">健身/瑜伽/游泳</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">胸衣</a>
+                            <a href="#" target="_blank">紧身裤（长</a>
+                            <a href="#" target="_blank">紧身裤(中/短)</a>
+                            <a href="#" target="_blank">综训鞋</a>
+                            <a href="#" target="_blank">瑜伽服</a>
+                            <a href="#" target="_blank">泳装</a>
+                            <a href="#" target="_blank">泳具</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width450">
+                        <h3 class="black">羽毛球/网球</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">男士羽毛球服装</a>
+                            <a href="#" target="_blank">女士羽毛球服装</a>
+                            <a href="#" target="_blank">男士羽毛球服</a>
+                            <a href="#" target="_blank">女士羽毛球服</a>
+                            <a href="#" target="_blank">男士网球服</a>
+                            <a href="#" target="_blank">女士网球服</a>
+                            <a href="#" target="_blank">男士网球鞋</a>
+                            <a href="#" target="_blank">女士网球鞋</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="navR">
+                    <h3>品牌导购</h3>
+                    <img src="images/pinpai.jpg">
+                    <ul class="mapUl">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!--户外鞋服-->
+        <div class=" nav1Sub">
+            <span class="navrr single2">◆</span>
+            <div class="mainnav">
+                <div class="subMain">
+                    <h3>户外服饰</h3>
+                    <div class="catewrap width320">
+                        <h3 class="black">男装</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">T恤</a>
+                            <a href="#" target="_blank">Polo衫</a>
+                            <a href="#" target="_blank">衬衫</a>
+                            <a href="#" target="_blank">卫衣</a>
+                            <a href="#" target="_blank">速干衣</a>
+                            <a href="#" target="_blank">皮肤衣</a>
+                            <a href="#" target="_blank">夹克外套</a>
+                            <a href="#" target="_blank">冲锋衣</a>
+                            <a href="#" target="_blank">抓绒衣</a>
+                            <a href="#" target="_blank">短裤</a>
+                            <a href="#" target="_blank">速干裤</a>
+                            <a href="#" target="_blank">休闲裤</a>
+                            <a href="#" target="_blank">三合一冲锋衣</a>
+                            <a href="#" target="_blank">羽绒服/棉服</a>
+                        </p>
+
+                    </div>
+                    <div class="catewrap width320">
+                        <h3 class="black">女装</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">T恤</a>
+                            <a href="#" target="_blank">Polo衫</a>
+                            <a href="#" target="_blank">衬衫</a>
+                            <a href="#" target="_blank">卫衣</a>
+                            <a href="#" target="_blank">速干衣</a>
+                            <a href="#" target="_blank">皮肤衣</a>
+                            <a href="#" target="_blank">夹克外套</a>
+                            <a href="#" target="_blank">冲锋衣</a>
+                            <a href="#" target="_blank">抓绒衣</a>
+                            <a href="#" target="_blank">短裤</a>
+                            <a href="#" target="_blank">速干裤</a>
+                            <a href="#" target="_blank">休闲裤</a>
+                            <a href="#" target="_blank">三合一冲锋衣</a>
+                            <a href="#" target="_blank">羽绒服/棉服</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="subMain">
+                    <h3>户外鞋类 </h3>
+                    <div class="catewrap width300">
+                        <h3 class="black">男鞋</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">徒步鞋</a>
+                            <a href="#" target="_blank">工装鞋</a>
+                            <a href="#" target="_blank">凉鞋</a>
+                            <a href="#" target="_blank">两栖鞋</a>
+                            <a href="#" target="_blank">溯溪鞋</a>
+                            <a href="#" target="_blank">登山鞋</a>
+                            <a href="#" target="_blank">越野跑鞋</a>
+                            <a href="#" target="_blank">冬靴</a>
+                            <a href="#" target="_blank">御寒鞋</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width300">
+                        <h3 class="black">女鞋</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">徒步鞋</a>
+                            <a href="#" target="_blank">工装鞋</a>
+                            <a href="#" target="_blank">凉鞋</a>
+                            <a href="#" target="_blank">两栖鞋</a>
+                            <a href="#" target="_blank">溯溪鞋</a>
+                            <a href="#" target="_blank">登山鞋</a>
+                            <a href="#" target="_blank">越野跑鞋</a>
+                            <a href="#" target="_blank">冬靴</a>
+                            <a href="#" target="_blank">御寒鞋</a>
+                        </p>
+                    </div>
+                    <h3>户外配件</h3>
+                    <div class="catewrap width300">
+                        <p class="context">
+                            <a href="#" target="_blank">户外包</a>
+                            <a href="#" target="_blank">水壶</a>
+                            <a href="#" target="_blank">帽子</a>
+                            <a href="#" target="_blank">手套</a>
+                            <a href="#" target="_blank">帐篷</a>
+                            <a href="#" target="_blank">睡袋</a>
+                            <a href="#" target="_blank">垫子</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="navR">
+                    <h3>品牌导购</h3>
+                    <img src="images/pinpai2.png">
+                    <ul class="mapUl map2Ul">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!--男女名鞋-->
+        <div class=" nav1Sub">
+            <span class="navrr single3">◆</span>
+            <div class="mainnav">
+                <div class="subMain">
+                    <h3>男鞋</h3>
+                    <div class="catewrap width320">
+                        <h3 class="black">夏季款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">洞洞鞋</a>
+                            <a href="#" target="_blank">冲孔鞋</a>
+                            <a href="#" target="_blank">皮凉鞋</a>
+                            <a href="#" target="_blank">软木鞋</a>
+                            <a href="#" target="_blank">沙滩鞋</a>
+                            <a href="#" target="_blank">沙滩鞋</a>
+                            <a href="#" target="_blank">人字拖</a>
+                            <a href="#" target="_blank">拖鞋</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width320">
+                        <h3 class="black">春秋款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">正装鞋</a>
+                            <a href="#" target="_blank">商务鞋</a>
+                            <a href="#" target="_blank">工装鞋</a>
+                            <a href="#" target="_blank">帆布鞋</a>
+                            <a href="#" target="_blank">板鞋</a>
+                            <a href="#" target="_blank">户外鞋</a>
+                            <a href="#" target="_blank">布洛克鞋</a>
+                            <a href="#" target="_blank">伐木鞋</a>
+                            <a href="#" target="_blank">豆豆乐福鞋</a>
+                        </p>
+
+                    </div>
+                    <div class="catewrap width320">
+                        <h3 class="black">冬季款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">工装鞋</a>
+                            <a href="#" target="_blank">马丁靴</a>
+                            <a href="#" target="_blank">雪地靴</a>
+                            <a href="#" target="_blank">军警靴</a>
+                            <a href="#" target="_blank">时装靴</a>
+                            <a href="#" target="_blank">棉鞋</a>
+                            <a href="#" target="_blank">高帮板鞋</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="subMain">
+                    <h3>女鞋</h3>
+                    <div class="catewrap width320">
+                        <h3 class="black">夏季款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">全凉鞋</a>
+                            <a href="#" target="_blank">鱼嘴鞋</a>
+                            <a href="#" target="_blank">女凉拖</a>
+                            <a href="#" target="_blank">后空鞋</a>
+                            <a href="#" target="_blank">人字拖</a>
+                            <a href="#" target="_blank">平底凉鞋</a>
+                            <a href="#" target="_blank">浅口单鞋</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width320">
+                        <h3 class="black">春秋款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">满帮女鞋</a>
+                            <a href="#" target="_blank">浅口女鞋</a>
+                            <a href="#" target="_blank">帆布鞋</a>
+                            <a href="#" target="_blank">户外鞋</a>
+                            <a href="#" target="_blank">妈妈鞋</a>
+                            <a href="#" target="_blank">内增高</a>
+                            <a href="#" target="_blank">乐福鞋</a>
+                            <a href="#" target="_blank">家居鞋</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width320">
+                        <h3 class="black">冬季款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">短靴</a>
+                            <a href="#" target="_blank">中筒靴</a>
+                            <a href="#" target="_blank">高筒靴</a>
+                            <a href="#" target="_blank">内增高</a>
+                            <a href="#" target="_blank">马丁靴</a>
+                            <a href="#" target="_blank">及踝靴</a>
+                            <a href="#" target="_blank">女雪地靴</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="navR">
+                    <h3>品牌导购</h3>
+                    <img src="images/pinpai3.png">
+                    <ul class="mapUl">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!--快乐儿童-->
+        <div class=" nav1Sub">
+            <span class="navrr single4">◆</span>
+            <div class="mainnav">
+                <div class="subMain">
+                    <h3>品牌导购</h3>
+                    <div class="catewrap width320">
+                        <h3 class="black">儿童鞋靴</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">儿童运动鞋</a>
+                            <a href="#" target="_blank">儿童休闲鞋</a>
+                            <a href="#" target="_blank">儿童跑步鞋</a>
+                            <a href="#" target="_blank">儿童户外鞋</a>
+                            <a href="#" target="_blank">儿童训练鞋</a>
+                            <a href="#" target="_blank">儿童蓝球鞋</a>
+                            <a href="#" target="_blank">儿童凉鞋</a>
+                            <a href="#" target="_blank">儿童沙滩鞋</a>
+                            <a href="#" target="_blank">儿童时装鞋</a>
+                            <a href="#" target="_blank">学步鞋</a>
+                            <a href="#" target="_blank">童靴</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width320">
+                        <h3 class="black">春秋款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">正装鞋</a>
+                            <a href="#" target="_blank">商务鞋</a>
+                            <a href="#" target="_blank">工装鞋</a>
+                            <a href="#" target="_blank">帆布鞋</a>
+                            <a href="#" target="_blank">板鞋</a>
+                            <a href="#" target="_blank">户外鞋</a>
+                            <a href="#" target="_blank">布洛克鞋</a>
+                            <a href="#" target="_blank">伐木鞋</a>
+                            <a href="#" target="_blank">豆豆乐福鞋</a>
+                        </p>
+
+                    </div>
+                    <div class="catewrap width320">
+                        <h3 class="black">冬季款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">工装鞋</a>
+                            <a href="#" target="_blank">马丁靴</a>
+                            <a href="#" target="_blank">雪地靴</a>
+                            <a href="#" target="_blank">军警靴</a>
+                            <a href="#" target="_blank">时装靴</a>
+                            <a href="#" target="_blank">棉鞋</a>
+                            <a href="#" target="_blank">高帮板鞋</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="subMain">
+                    <h3>女鞋</h3>
+                    <div class="catewrap width320">
+                        <h3 class="black">夏季款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">全凉鞋</a>
+                            <a href="#" target="_blank">鱼嘴鞋</a>
+                            <a href="#" target="_blank">女凉拖</a>
+                            <a href="#" target="_blank">后空鞋</a>
+                            <a href="#" target="_blank">人字拖</a>
+                            <a href="#" target="_blank">平底凉鞋</a>
+                            <a href="#" target="_blank">浅口单鞋</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width320">
+                        <h3 class="black">春秋款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">满帮女鞋</a>
+                            <a href="#" target="_blank">浅口女鞋</a>
+                            <a href="#" target="_blank">帆布鞋</a>
+                            <a href="#" target="_blank">户外鞋</a>
+                            <a href="#" target="_blank">妈妈鞋</a>
+                            <a href="#" target="_blank">内增高</a>
+                            <a href="#" target="_blank">乐福鞋</a>
+                            <a href="#" target="_blank">家居鞋</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width320">
+                        <h3 class="black">冬季款</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">短靴</a>
+                            <a href="#" target="_blank">中筒靴</a>
+                            <a href="#" target="_blank">高筒靴</a>
+                            <a href="#" target="_blank">内增高</a>
+                            <a href="#" target="_blank">马丁靴</a>
+                            <a href="#" target="_blank">及踝靴</a>
+                            <a href="#" target="_blank">女雪地靴</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="navR">
+                    <h3>品牌导购</h3>
+                    <img src="images/pinpai3.png">
+                    <ul class="mapUl">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!--全球购-->
+        <div class="nav1Sub">
+            <span class="navrr single5">◆</span>
+            <div class="mainnav">
+                <div class="subMain">
+                    <h3>品类导购</h3>
+                    <div class="catewrap">
+                        <h3 class="black">运动鞋</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">跑步鞋</a>
+                            <a href="#" target="_blank">板鞋</a>
+                            <a href="#" target="_blank">凉鞋/凉拖</a>
+                            <a href="#" target="_blank">休闲复古鞋</a>
+                            <a href="#" target="_blank">篮球鞋</a>
+                            <a href="#" target="_blank">帆布鞋</a>
+                            <a href="#" target="_blank">休闲鞋</a>
+                            <a href="#" target="_blank">硫化鞋</a>
+                            <a href="#" target="_blank">户外鞋</a>
+                            <a href="#" target="_blank">健步鞋</a>
+                            <a href="#" target="_blank">室内鞋</a>
+                            <a href="#" target="_blank">综训鞋</a>
+                            <a href="#" target="_blank">羽毛球鞋</a>
+                            <a href="#" target="_blank">足球鞋</a>
+                            <a href="#" target="_blank">网球鞋</a>
+                            <a href="#" target="_blank">乒乓球鞋</a>
+                            <a href="#" target="_blank">健身鞋</a>
+                            <a href="#" target="_blank">滑板鞋</a>
+                        </p>
+
+                    </div>
+                    <div class="catewrap">
+                        <h3 class="black">运动服</h3>
+                        <p class="context">
+                            <a class="a2" href="#" target="_blank">POLO衫</a>
+                            <a class="a2" href="#" target="_blank">T恤</a>
+                            <a class="a2" href="#" target="_blank">背心</a>
+                            <a class="a2" href="#" target="_blank">胸衣</a>
+                            <a class="a2" href="#" target="_blank">短裤</a>
+                            <a class="a2" href="#" target="_blank">长裤</a>
+                            <a class="a2" href="#" target="_blank">运动群</a>
+                            <a class="a2" href="#" target="_blank">卫衣/套头</a>
+                            <a class="a2" href="#" target="_blank">外套/开衫</a>
+                            <a class="a2" href="#" target="_blank">衬衫</a>
+                            <a class="a2" href="#" target="_blank">风衣</a>
+                            <a class="a2" href="#" target="_blank">运动套装</a>
+                        </p>
+
+                    </div>
+                    <div class="catewrap">
+                        <h3 class="black">运动周边</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">护具</a>
+                            <a href="#" target="_blank">球类</a>
+                            <a href="#" target="_blank">泳具</a>
+                            <a href="#" target="_blank">球拍</a>
+                            <a href="#" target="_blank">运动休闲包</a>
+                            <a href="#" target="_blank">袜子</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="subMain">
+                    <h3>运动导购 </h3>
+                    <div class="catewrap width450">
+                        <h3 class="black">跑步运动</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">boost系列</a>
+                            <a href="#" target="_blank">登月系列</a>
+                            <a href="#" target="_blank">FREE系列</a>
+                            <a href="#" target="_blank">李宁超轻系列</a>
+                            <a href="#" target="_blank">透气网面鞋款</a>
+                            <a href="#" target="_blank">男士速干T恤</a>
+                            <a href="#" target="_blank">女生速干T恤</a>
+                            <a href="#" target="_blank">男士运动背心</a>
+                            <a href="#" target="_blank">女士运动背心</a>
+                            <a href="#" target="_blank">男士短裤</a>
+                            <a href="#" target="_blank">女士短裤</a>
+                        </p>
+
+                    </div>
+                    <div class="catewrap width450">
+                        <h3 class="black">足球/篮球鞋</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">足球鞋</a>
+                            <a href="#" target="_blank">足球系列服装</a>
+                            <a href="#" target="_blank">篮球鞋</a>
+                            <a href="#" target="_blank">篮球系列服装</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width450">
+                        <h3 class="black">健身/瑜伽/游泳</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">胸衣</a>
+                            <a href="#" target="_blank">紧身裤（长</a>
+                            <a href="#" target="_blank">紧身裤(中/短)</a>
+                            <a href="#" target="_blank">综训鞋</a>
+                            <a href="#" target="_blank">瑜伽服</a>
+                            <a href="#" target="_blank">泳装</a>
+                            <a href="#" target="_blank">泳具</a>
+                        </p>
+                    </div>
+                    <div class="catewrap width450">
+                        <h3 class="black">羽毛球/网球</h3>
+                        <p class="context">
+                            <a href="#" target="_blank">男士羽毛球服装</a>
+                            <a href="#" target="_blank">女士羽毛球服装</a>
+                            <a href="#" target="_blank">男士羽毛球服</a>
+                            <a href="#" target="_blank">女士羽毛球服</a>
+                            <a href="#" target="_blank">男士网球服</a>
+                            <a href="#" target="_blank">女士网球服</a>
+                            <a href="#" target="_blank">男士网球鞋</a>
+                            <a href="#" target="_blank">女士网球鞋</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="navR">
+                    <h3>品牌导购</h3>
+                    <img src="images/pinpai.jpg">
+                    <ul class="mapUl">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--*****product******-->
+<div class="product">
+    <div class="productD">
+        <div class="proTop">
+            <p class="open">
+                <span >
+                    <a href="#">好乐买</a>
+                    >&nbsp;
+                    <a href="#">男装</a>
+                    >&nbsp;
+                    <a href="#">卫衣</a>
+                </span>
+            </p>
+            <div class="wai">
+                <div class="one">
+                    <img />
+                    <span></span>
+
+                </div>
+                <ul class="tt">
+                    <!--<li>
+                        <img src="images/detil4.jpg">
+                        <i class="hoh"></i>
+                    </li>(
+                    <li>
+                        <img src="images/detil4.jpg">
+                        <i class="hoh"></i>
+                    </li>
+                    <li>
+                        <img src="images/detil4.jpg">
+                        <i class="hoh"></i>
+                    </li>-->
+                </ul>
+                <!--<div class="two">
+                    <img class="active" src="img/11.jpg" />
+                    <img src="img/22.jpg" />
+                    <img src="img/33.jpg" />
+                </div>-->
+            </div>
+
+            <div class="the">
+                <img src="images/444.jpg" />
+            </div>
+            <!--********************-->
+            <div class="xianqing">
+                <h1 class="prodName">
+
+                </h1>
+                <div class="proPric">
+                    <div class="prod222">
+                        <div class="proprcL">
+                            <span class="propic1">好乐买价</span>
+                            <span class="propic2"></span>
+                            <span class="propic3"></span>
+                        </div>
+                        <div class="propriz">
+                            <span>折</span>
+                        </div>
+                        <div class="total">
+                            <span class="leiji">累计评价</span>
+                            <a href="#">1</a>
+                        </div>
+                    </div>
+                    <div class="proActive">
+                        <span class="proac">活动</span>
+                        <span class="projian">满减</span>
+                        <span class="proup"></span>
+                    </div>
+                </div>
+                <div class="proColor">
+                    <span class="color">颜色</span>
+                    <span class="prop1">
+                        <img src="#">
+                    </span>
+                </div>
+                <div class="proSize">
+                    <span class="color">尺码</span>
+                    <div class="sizeIn">
+                        <p>尺码对照表</p>
+                        <ul>
+                           <!--<li><a href="#">40</a></li>
+                           <li><a href="#">39</a></li>
+                           <li><a href="#">38</a></li>
+                           <li><a href="#">37</a></li>
+                           <li><a href="#">36</a></li>
+                           <li><a href="#">35</a></li>
+                            <li><a href="#">34</a></li>
+                            <li><a href="#">33</a></li>
+                            <li><a href="#">32</a></li>
+                            <li><a href="#">31</a></li>-->
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="proCount">
+                    <span class="color">数量</span>
+                    <ul>
+                        <li><a id="bgf9J" class="bgf9" href="#">-</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a id="bgf9add" class="bgf9" href="#">+</a></li>
+                    </ul>
+                </div>
+                <div class="addShop">
+                    <input class="proCar" type="button" value="加入购物车">
+                    <div class="proGet">
+                        <div class="getCon">
+                            <a href="#">收藏该商品</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proNotic">
+                    <img src="images/okservice.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--*******************-->
+<div class="pinglun">
+    <div class="pinglunIn">
+        <ul class="pinglunTop">
+            <li><a href="#">商品详情</a></li>
+            <li><a href="#">评价晒单<span class="plcount">80</span></a></li>
+            <li><a href="#">商品咨询</a></li>
+            <li><a href="#">好乐买服务</a></li>
+        </ul>
+        <div class="blank30">
+        </div>
+        <div class="pinglunConTop">
+
+        </div>
+
+        <table class="pingT">
+            <tr>
+                <td class="t1">商品编号：</td>
+                <td class="t2">17408818</td>
+                <td class="t1">性别：</td>
+                <td class="t2">男</td>
+            </tr>
+            <tr>
+                <td class="t1">颜色：</td>
+                <td class="t2">橙黄色</td>
+                <td class="t1">风格：</td>
+                <td>日常休闲</td>
+            </tr>
+            <tr>
+                <td class="t1">图案：</td>
+                <td class="t2">其他</td>
+                <td class="t1">袖长：</td>
+                <td class="t2">长袖</td>
+            </tr>
+            <tr>
+                <td class="t1">版型：</td>
+                <td class="t2">修身型</td>
+                <td class="t1">季节：</td>
+                <td class="t2">秋</td>
+            </tr>
+        </table>
+        <div class="blank30">
+        </div>
+        <div class="pinglunConTop shop2">
+        </div>
+        <p class="tbp">尺码对照表</p>
+        <div class="sizeList">
+            <div class="sizeLP">
+                <img src="images/sizestar.png">
+               <span> 请您放心挑选尺码，好乐买7天退换货为您畅享购物提供保障。</span>
+            </div>
+             <table class="tb2">
+                 <tr>
+                     <th colspan="7">马克华菲休闲上装（衬衫类)尺码对照表</th>
+                 </tr>
+                 <tr>
+                     <td >原尺码</td>
+                     <td>S</td>
+                     <td>M</td>
+                     <td>L</td>
+                     <td>XL</td>
+                     <td>XXL</td>
+                     <td>XXXL</td>
+                 </tr>
+                 <tr>
+                     <td>身高</td>
+                     <td>165/84A</td>
+                     <td>170/88A</td>
+                     <td>175/92A</td>
+                     <td>180/96A</td>
+                     <td>185/100A</td>
+                     <td>190/104A</td>
+                 </tr>
+                 <tr>
+                     <td>包装尺码</td>
+                     <td>38</td>
+                     <td>39</td>
+                     <td>40</td>
+                     <td>41</td>
+                     <td>42</td>
+                     <td>43</td>
+                 </tr>
+             </table>
+            <div class="blank30">
+            </div>
+            <div class="pinglunConTop shop3">
+            </div>
+        </div>
+        <div class="bigP">
+            <!--<img src="images/many.jpg">
+            <img src="images/many2.jpg">
+            <img src="images/many3.jpg">
+            <img src="images/many4.jpg">
+            <img src="images/many5.jpg">-->
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

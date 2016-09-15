@@ -1,0 +1,472 @@
+.product {
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+    position: relative;
+
+}
+
+.productD {
+    position:relative;
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.proTop {
+    margin: 10px 0 20px 0;
+}
+
+.open {
+    color: #999;
+}
+
+.open a {
+    color: #666;
+}
+
+.xianqing {
+    margin-left: 29px;
+    float: left;
+    width: 550px;
+}
+
+.prodName {
+    font-size: 16px;
+    margin-top: 6px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.proPric {
+    width: 570px;
+    float: left;
+    margin-top: 14px;
+    background: #f6f6f6;
+    position: relative;
+}
+
+.prod222 {
+    padding: 7px 0 12px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.proprcL {
+    float: left;
+    padding: 0 8px 0 0;
+}
+
+.propic1 {
+    display: inline-block;
+    padding-left: 20px;
+    width: 56px;
+    color: #535353;
+}
+
+.propic2 {
+    font-size: 36px;
+    color: #d70057;
+}
+
+.propic3 {
+    text-decoration: line-through;
+    margin: 0 10px;
+    color: #999;
+    font-size: 14px;
+}
+
+.propriz {
+    text-align: center;
+    float: left;
+    width: 50px;
+    height: 20px;
+    border-radius: 24px;
+    margin-top: 14px;
+    line-height: 20px;
+    padding: 0 12px;
+    background: #f66b8c;
+}
+
+.propriz {
+    color: white;
+}
+
+.total {
+    text-align: center;
+    float: right;
+    display: inline;
+    margin: 10px 20px 0 0;
+    padding-left: 20px;
+    width: 50px;
+    height: 30px;
+    border-left: 1px solid #e9e9e9;
+}
+
+.proActive {
+    padding: 10px 0 11px 0;
+}
+
+.proac {
+    display: inline-block;
+    width: 56px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    color: #535353;
+    padding-left: 20px;
+}
+
+.projian {
+    display: inline-block;
+    height: 22px;
+    line-height: 20px;
+    padding: 0 12px;
+    background: #d70057;
+    color: white;
+}
+
+.proup {
+    line-height: 20px;
+    color: #666;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+/**&******放大镜*******/
+.one {
+    width: 600px;
+    height: 450px;
+    border: 1px solid #CCCCCC;
+    position: relative;
+}
+.tt{
+    height:60px;
+    width:600px;
+    border:1px solid #ccc;
+    border-top:none;
+}
+.tt li{
+    cursor: pointer;
+    position:relative;
+    float:left;
+    width:59px;
+    height:59px;
+    border-right:1px solid #ccc;
+}
+.tt li:hover .hoh{
+    display: block;
+}
+.hoh{
+    font-style:normal;
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    width:55px;
+    height:55px;
+    border:2px solid #c03;
+    background:url(../images/prodjiao.png) no-repeat;
+}
+.one span {
+    width: 299px;
+    height: 225px;
+    position: absolute;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+    background:white;
+    border: 1px solid #888;
+    top: 0;
+    left: 0;
+    display: none;
+    cursor: move;
+}
+
+.one:hover span {
+    display: block;
+}
+
+.wai {
+    margin-top: 10px;
+    float: left;
+}
+
+.two {
+    padding: 30px 0 0 50px;
+}
+
+.two img {
+    border: 1px solid #ccc;
+}
+
+.two .active {
+    border: 1px solid red;
+}
+
+.two img:hover {
+    border: 1px solid red;
+}
+
+.the {
+    margin-top:10px;
+    width: 597px;
+    height: 450px;
+    position:absolute;
+    left:602px;
+    z-index: 999;
+    background:white;
+    overflow: hidden;
+    border: 1px solid #969696;
+    display: none;
+}
+
+.the img {
+    position: absolute;
+    display: block;
+}
+/*************************/
+.proColor{
+    overflow:hidden;
+    padding-top: 16px;
+    width:570px;
+}
+.color{
+    float:left;
+    display: inline-block;
+    width: 56px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    color: #535353;
+    padding-left: 20px;
+}
+.prop1{
+    display:block;
+    width:59px;
+    height:59px;
+    float:left;
+    border:1px solid #d70057;
+    margin:0 10px 10px 0;
+}
+.sizeIn{
+    padding-top:2px;
+    overflow:hidden;
+    float:left;
+}
+.sizeIn p{
+    color:#d70057;
+    text-align:left;
+}
+.sizeIn ul{
+    overflow: hidden;
+    padding-top:10px;
+    width:450px;
+}
+.sizeIn li{
+    position:relative;
+    border:1px dashed #D6D6D8;
+    float:left;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+.sizeIn ul a{
+    text-align:center;
+    line-height:24px;
+    font-size:14px;
+    padding:0 15px;
+    color:#333;
+}
+.sizeIn ul li i{
+    display:none;
+    width:16px;
+    height:16px;
+    position: absolute;
+    right:0;
+    bottom:0;
+    background:url(../images/gou.png) no-repeat;
+}
+.proCount{
+    clear:both;
+}
+.proCount ul{
+    width:84px;
+    overflow:hidden;
+    border:1px solid #777;
+}
+
+.proCount li{
+    float:left;
+}
+.proCount li a{
+    display:block;
+    width:28px;
+    height:28px;
+    text-align:center;
+    line-height:30px;
+    color:#535353;
+}
+.bgf9{
+    background:#f9f9f9;
+}
+.addShop{
+    overflow:hidden;
+    margin:40px 0 0 76px;
+}
+.proCar{
+    cursor:pointer;
+    float:left;
+    font-size:20px;
+    border-radius: 1px;
+    line-height:50px;
+    color:#fff;
+    width:250px;
+    height:50px;
+    padding-left:32px;
+    background:#d70057 url(../images/cartbtnbg.png) 59px 17px no-repeat;
+}
+.proGet{
+    margin:0 0 0 270px;
+    padding-top:17px;
+}
+.getCon{
+    float:left;
+    background:url(../images/wishstar.png) no-repeat;
+    padding-left:22px;
+    line-height:15px;
+    color:#999;
+    height:16px;
+}
+.getCon a{
+    color:#999;
+}
+.proNotic{
+    margin-top:20px;
+    width:568px;
+    height:54px;
+    padding:10px 0 0px 76px;
+    border-top:1px dashed #999 ;
+    border-bottom:1px dashed #999;
+}
+/***************************/
+.pinglun{
+    background:#fff;
+    text-align: center;
+    margin-top:50px;
+}
+.pinglunIn{
+    width:1200px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.pinglunTop{
+    width:1198px;
+    height:48px;
+    border:1px solid #dfdfdf;
+    background:#fbfbfb;
+}
+.pinglunTop li{
+    float:left;
+}
+.pinglunTop li a{
+    display:block;
+    line-height:47px;
+    width:140px;
+    height:47px;
+    text-align:center;
+    border-right:1px solid #dfdfdf;
+    font-size:14px;
+    color:#333;
+}
+.pinglunTop li a:hover{
+    background:white;
+    color:#d70057;
+    border-bottom:2px solid #d70057;
+
+}
+.plcount{
+    color:#d70057;
+}
+/*******************/
+.blank30{
+    clear:both;
+    width:1200px;
+    height:30px;
+}
+.pinglunConTop{
+    width:1200px;
+    height:33px;
+    margin-bottom:26px;
+    background:url(../images/productdetail-info-title.png) -5px -1px no-repeat;
+}
+.pingT{
+    width:100%;
+    border:1px solid #999;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.pingT td{
+    padding:10px 15px;
+    border-bottom:1px solid #f0f0f0;
+    font-size:14px;
+    color:#999;
+}
+.t1{
+    background:#fbfbfb;
+    color:#666;
+    width:12%;
+    text-align:right;
+}
+.t2{
+    width:38%;
+    border-right: 1px solid #f0f0f0;
+}
+.shop2{
+    background-position:-5px -40px;
+}
+/*************************/
+.tbp{
+    background:#fff;
+    text-align:left;
+    line-height:20px;
+    font-size:14px;
+    color:#666;
+}
+.sizeList{
+
+}
+.sizeLP{
+   height:30px;
+    margin:10px 0;
+    text-align:left;
+}
+.sizeLP span{
+    line-height:30px;
+}
+.tb2{
+    border-collapse: collapse;
+    border:1px solid #adadad;
+    width:100%;
+}
+.tb2 th{
+    font-size:12px;
+    height:34px;
+    background:#ddd;
+    color:#666;
+}
+.tb2 th,td{
+    height:32px;
+    line-height:32px;
+    border:1px solid #adadad;
+
+}
+.shop3{
+    background-position:-5px -81px;
+    background-repeat: no-repeat;
+}
+
+
+/****新****/
+.sizeIn ul li:hover{
+    border:1px solid #d70057;
+}

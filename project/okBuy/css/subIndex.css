@@ -1,0 +1,415 @@
+.sear{
+    width:1200px;
+    background: #fff;
+    overflow:hidden;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+.sex{
+    overflow:hidden;
+    position: relative;
+    width:1200px;
+    min-height:43px;
+
+    border-bottom: 1px dotted #c8c8c8 ;
+}
+.pphead{
+    color:#333;
+    width:100px;
+    height:100%;
+    background:#fbfbfb;
+    text-align: center;
+    line-height:43px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.all{
+    display:block;
+    width:40px;
+    height:24px;
+    text-align: center;
+    line-height: 24px;
+    color:white;
+    background:#d70057;
+    position: absolute;
+    top:8px;
+    left:120px;
+}
+.uls1{
+    padding-bottom: 10px;
+    overflow: hidden;
+    margin-left: 180px;
+}
+.uls1 li{
+    float:left;
+    padding:13px 100px 0 0;
+}
+.uls1 li a{
+    color:#333;
+}
+.ulsBall li{
+    padding:10px 10px 0 0;
+}
+.ulsBall li a{
+     display: block;
+    text-align: center;
+    line-height: 22px;
+    width:22px;
+    height:22px;
+    border-radius:11px;
+
+}
+.uls1 li .Cgreen{
+    background: green;
+    color:green;
+}
+.uls1 li .Cred{
+    background: red;
+    color:red;
+}
+.uls1 li .Cyellow{
+    background: yellow;
+    color:yellow;
+}
+.uls1 li .Cblue{
+    background: blue;
+    color:blue;
+}
+.uls1 li .Cpurple{
+    background: purple;
+    color:purple;
+}
+.uls1 li .Cblack{
+    background:black;
+    color:black;
+}
+.uls1 li .Cgreen{
+    background: green;
+    color:green;
+}
+.uls1 li .Cgrey{
+    background: gray;
+    color:gray;
+}
+
+.in{
+    position: absolute;
+    top:8px;
+    left:120px;
+}
+.in1{
+    padding-left:10px;
+    width:60px;
+    height:28px;
+    border:1px solid #ececec;
+}
+.inSure{
+    background:#ffe1ed;
+    width:68px;
+    height:28px;
+    line-height:28px;
+    text-align: center;
+    color:#656668;
+}
+/****************/
+.aaa{
+    width:1200px;
+    height:38px;
+    margin: 0 auto;
+    border:1px solid #d9d9d9;
+    background:#fbfbfb;
+}
+.aaL{
+    float:left;
+}
+.aaL a{
+    float:left;
+    height:38px;
+    display: inline;
+    padding:0 27px;
+    text-align:center;
+    line-height:38px;
+    color:#666;
+    border-right:1px solid #d9d9d9;
+}
+.aaR{
+    float:right;
+    padding:5px 0;
+    line-height:28px;
+    margin-right:10px;
+}
+.numSear{
+    float: left;
+    margin-right:25px;
+    color:#666;
+}
+.numSear i{
+    font-style: normal;
+    color:red;
+
+}
+.aaR a{
+    float: left;
+    display: block;
+    width:28px;
+    height:28px;
+    text-align:center;
+}
+.searLS{
+    display: inline-block;
+    width:8px;
+    height:12px;
+    margin-top:8px;
+    background:url(../images/section-tigger.png) -30px -47px no-repeat;
+}
+.pageCount{
+     float: left;
+
+}
+.searRS{
+    display: inline-block;
+    width:8px;
+    height:12px;
+    margin-top:8px;
+    background:url(../images/section-tigger.png) -43px -47px no-repeat;
+}
+/******** subList************/
+.subList{
+    margin: 0 auto;
+    width:1200px;
+    overflow:hidden;
+    background:#fff;
+    padding-top:10px;
+}
+.listUL{
+    overflow:hidden;
+
+}
+.listUL li{
+    float: left;
+    width:270px;
+    height:394px;
+    margin-left:24px;
+}
+.listNo1 .list-top{
+    margin-bottom: 16px;
+    width:270px;
+    height:270px;
+}
+.logobg{
+    height:50px;
+    margin-bottom: 10px;
+    display:block;
+    width:auto;
+    background:url(../images/list3_bg.png)
+}
+.list-mid{
+    margin-left:99px;
+}
+.list-tit1{
+    color:#333;
+    display: block;
+    width:260PX;
+    margin:0 auto;
+    text-align:center;
+    line-height:20px;
+}
+.list-pri{
+    text-align:center;
+    margin-top: 6px;
+    color:#d70057;
+    display: block;
+}
+.reB{
+    color:#d70057;
+    font-size:18px;
+    font-style: normal;
+}
+.list-pri i{
+    font-style: normal;
+    text-decoration: line-through;
+    color:#666;
+}
+/******************/
+
+.fenye{
+    width:100%;
+   overflow: hidden;
+    padding:30px 0;
+    text-align:center;
+}
+.fenyeN{
+    text-align: center;
+    width:100%;
+    height:32px;
+}
+.fenyem{
+    width:570px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.blank6{
+    float:left;
+    width:6px;
+    height:30px;
+}
+.fenyeN ul li{
+    float:left;
+}
+.fenyeN ul a{
+    cursor: pointer;
+    display: inline-block;
+    width:29px;
+    height:29px;
+    border:1px solid #e8e8e8;
+    text-align:center;
+    line-height:29px;
+    color:black;
+    margin-right:6px;
+}
+.fenyeN ul .no1{
+    border:none;
+    color:#d70057;
+}
+.nextp{
+    cursor: pointer;
+    float:left;
+    line-height:29px;
+    padding: 0 10px;
+    border:1px solid #e8e8e8;
+}
+.afff{
+    float:left;
+}
+.txx1{
+    width:29px;
+    height:29px;
+    outline:none;
+    border:1px solid #e8e8e8;
+}
+.sureB{
+    cursor: pointer;
+    display:inline-block;
+    width:49px;
+    height:29px;
+    line-height:29px;
+    border:1px solid #e8e8e8;
+
+}
+/****************/
+.xian{
+    padding-top:20px;
+    text-align: center;
+    margin:0 auto;
+}
+.jingcai{
+    overflow:hidden;
+    width:1178px;
+    height:342px;
+    margin:20px auto;
+    padding:20px 0 0 20px;
+    border:1px solid #ccc;
+}
+.jingcai .jc1{
+    margin-right:10px;
+    float:left;
+    margin-bottom:10px;
+}
+.jingcai .jc1 a{
+    display:block;
+    width:377px;
+    height:151px;
+    padding:1px;
+    position: relative;
+    border: 1px solid #999;
+
+}
+.jc1 span{
+    display:none;
+    position: absolute;
+    bottom:1px;
+    width:376px;
+    height:30px;
+    background:black;
+    opacity:0.6;
+    color:#fff;
+    text-align:center;
+    line-height:30px;
+    font-weight:bold;
+    filter: alpha(opacity=60);
+}
+.jc1 a:hover span{
+    display: block;
+}
+.jc1 a:hover{
+    border:1px solid black;
+}
+.littleT {
+    position:relative;
+}
+.littleT ul{
+    position:absolute;
+   top:20px;
+}
+.littleT ul li{
+    float:left;
+    margin-right:10px;
+    margin-bottom: 10px;
+
+}
+.littleT ul li a{
+    display: block;
+    width:160px;
+    height:80px;
+
+}
+
+
+/********* 选项卡下方的过滤搜索***********/
+.hasSelected{
+    display: none;
+    overflow: hidden;
+    width:100%;
+    padding:15px 15px 15px 30px;
+}
+.hasSelected dt{
+    margin-right:30px;
+    line-height:22px;
+    float:left;
+}
+.clearList{
+    float:left;
+}
+.clearList span{
+    display: none;
+    position:relative;
+    float:left;
+    width:68px;
+    height:20px;
+    border:1px solid #d70057;
+    margin-right:10px;
+}
+.clearList span i{
+    font-style: normal;
+    line-height:20px;
+    margin-left:10px;
+    color:#d70057;
+}
+.clearList span em{
+    font-style: normal;
+    display:inline-block;
+    width:10px;
+    height:10px;
+    position:absolute;
+    top:6px;
+    right:10px;
+    background:url(../images/section-tigger.png) -59px -3px no-repeat;
+}
+.clearList b{
+    cursor: pointer;
+     font-weight: normal;
+    line-height:22px;
+    float:right;
+}
+

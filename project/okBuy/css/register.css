@@ -1,0 +1,128 @@
+.regR{
+    margin:70px 0 0 50px;
+    padding-bottom: 80px;
+}
+.regPh span{
+    float: left;
+    line-height:38px;
+    font-size:14px;
+    color:#636363;
+}
+.lg{
+    position: relative;
+    float: left;
+    border:1px solid #ddd;
+    width:258px;
+    height:38px;
+    border-radius:4px;
+}
+.lg input{
+    outline: none;
+    width:250px;
+    height:30px;
+    padding-left:5px;
+    font-size: 12px;
+    line-height:30px;
+    margin:2px;
+    color:#999;
+}
+.regPh{
+    position:relative;
+    /*overflow: hidden;*/
+}
+.photoErr{
+    clear: both;
+    height:30px;
+    line-height:24px;
+    padding-left:56px;
+    color:#dc5751;
+    font-size:12px;
+}
+.true{
+    display:none;
+    padding-left:10px;
+    float:left;
+}
+.tru{
+    display: none;
+    position:absolute;
+    top:0px;
+    left:320px;
+}
+.safeLine{
+    display:none;
+    float:left;
+    margin:5px 0 0 10px;
+
+}
+.safeLine p{
+    color:#999;
+    line-height:12px;
+    font-size:12px;
+    margin:0 0 6px 0;
+}
+.safeLine span{
+    transition: background .5s ease-in;
+    -moz-transition: background .5s ease-in;
+    -webkit-transition: background .5s ease-in;
+    -o-transition: background .5s ease-in;
+    float:left;
+    width:39px;
+    height:14px;
+    display:block;
+    margin-right:2px;
+    background:#d4d4d2;
+    color:#fff;
+    line-height:14px;
+    font-size:12px;
+    text-align:center;
+}
+.yan{
+    width:120px;
+    height:38px;
+}
+.yan .yan1{
+    width:110px;
+    height:30px;
+}
+.yangzhe{
+    width:76px;
+    height:31px;
+    background:url(../images/checked.png);
+    float:left;
+    margin:6px 10px 0 10px;
+}
+.regPh .yangzhe{
+    line-height:30px;
+    font-weight:bold;
+     font-size:20px;
+    letter-spacing: 6px;
+}
+.change{
+    font-size:14px;
+    color:#d70057;
+    line-height:38px;
+    text-decoration:underline;
+}
+.check{
+    height:24px;
+    margin:8px 0 5px 5px;
+    padding-left:50px;
+    line-height:24px;
+    color:#666;
+    font-size:14px;
+}
+.check span{
+    color:#d70057;
+}
+.regist{
+    width:260px;
+    height:44px;
+    background:#d70057;
+    color:white;
+    text-align:center;
+    font-size:24px;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-left:50px;
+}
